@@ -1,0 +1,26 @@
+﻿@model ABCRestaurant.Models.SurveyResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name ="viewport" content="width=device-width" />
+    <title>Thankyou</title>
+</head>
+<body>
+    <div>
+        <h2>Thank you for submitting the survey</h2>
+        You provided the following feedback to us: <br />
+        Your favorite menu item = @Model.FavoriteMenuItem<br />
+        Menu Prices are : @Model.MPrices<br />
+        <br />
+        @ViewBag.Reply
+
+    </div>
+    @Html.ActionLink("Back to main", "Index");
+</body>
+</html>

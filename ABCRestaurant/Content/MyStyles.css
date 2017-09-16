@@ -1,0 +1,27 @@
+﻿
+body {
+font-size:10pt;
+font-family:Arial;
+}
+.field-validation-error {
+font-size:10pt;
+font-weight:bold;
+color:red;
+}
+.field-validation-valid {
+display: none;
+}
+.input-validation-error {
+font-size:10pt;
+font-weight:bold;
+color:red;
+background-color:#fff0f0;
+}
+.validation-summary-errors {
+border:1px solid  #b200ff;
+color:red;
+background-color:#ffd800;
+}
+.validation-summary-valid {
+display: none;
+}
